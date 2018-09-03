@@ -1,0 +1,62 @@
+#modalTarefa{
+    background-color: transparent;
+    width: 100%;
+    border-radius: 5px;
+    text-align:center;
+    padding:15px;
+    font-size: 10px;
+  
+    /*display: none;*/
+    margin: 180px 500px;
+    height:100%;
+    display: block;
+    
+}
+
+#fundoTarefa.visivel{
+    display: block;
+}
+
+h1{
+    color:yellow;
+    text-align: center;
+}
+
+
+#fundoTarefa{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 15%;
+    height: 30px;
+    display: none;
+  }
+
+  #closeTarefa{
+    text-align: center;
+    margin:5px;
+  }
+
+  #finalizado{
+   margin-top: 2px;
+   text-align: center;
+   padding-top: 0;
+   width: 100%;
+   font-size: 20px;
+   background: transparent;
+
+  }
+
+  #botaoAdicionar{
+      margin: 100px 500px;
+      text-align: center;
+      width: 10%;
+      margin-bottom: 1px;
+      padding: 0;
+      background-color: orange;
+      border-radius: 5px;
+  }
+
+  body{
+      background: linear-gradient(to right, #ff009d 0%,   #7700e6 100%);
+  }
